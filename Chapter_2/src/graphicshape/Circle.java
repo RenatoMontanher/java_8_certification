@@ -8,9 +8,9 @@ public class Circle extends Shape {
 		System.out.println("area: " + 3.14 * radius * radius);
 	}
 
-	// The fillColor method has default access
+	// método fillColor tem accesso default 
 	void fillColor() {
-		// access to protected field, in subclass:
+		// acessando campo protected, na subclass:
 		System.out.println("color: " + color);
 	}
 }
